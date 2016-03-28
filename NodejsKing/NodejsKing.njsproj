@@ -642,6 +642,7 @@
     <Compile Include="public\lib\jquery\src\var\support.js" />
     <Compile Include="public\lib\jquery\src\var\toString.js" />
     <Compile Include="public\lib\jquery\src\wrap.js" />
+    <Compile Include="src\routes\adminRoutes.js" />
     <Compile Include="src\routes\bookRoutes.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
