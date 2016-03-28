@@ -125,6 +125,8 @@
     <Folder Include="node_modules\vary\" />
     <Folder Include="public\css\" />
     <Folder Include="public\js\" />
+    <Folder Include="src\config\" />
+    <Folder Include="src\config\strategies\" />
     <Folder Include="src\routes\" />
     <Folder Include="src\views\" />
   </ItemGroup>
@@ -642,7 +644,10 @@
     <Compile Include="public\lib\jquery\src\var\support.js" />
     <Compile Include="public\lib\jquery\src\var\toString.js" />
     <Compile Include="public\lib\jquery\src\wrap.js" />
+    <Compile Include="src\config\passport.js" />
+    <Compile Include="src\config\strategies\local.strategies.js" />
     <Compile Include="src\routes\adminRoutes.js" />
+    <Compile Include="src\routes\authRoutes.js" />
     <Compile Include="src\routes\bookRoutes.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
